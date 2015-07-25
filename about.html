@@ -22,6 +22,7 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/vnd.microsoft.icon" />
+
 </head>
 <body>
 
@@ -65,41 +66,42 @@
     <!-- NAVBAR CODE END -->
     
     <div class="containerBody">
-        <div class="text-left pad-top">
+        <div class="text-left pad-top container">
             <p>
                 This is the Princeton Pre-Law Society.
+                More text giving the history and purpose can be added here. Also images.
             </p>
             <hr>
 
             <h2>Leadership</h2>
-            <h3>Executive Board</h3>
-            <ul>
-                <li>Co-Presidents: Aslihan Asil, Jon Cortez</li>
-                <li>Editor-in-Chief: Martha & Selena Kitchens</li>
-                <li>Internal Affairs Director: Moni Owoade</li>
-                <li>External Affairs Director: Michelle Molner</li>
-                <li>Publicity Director: Anyssa Chebbi</li>
-                <li>Treasurer: Yekaterina Panskyy</li>
-                <li>Secretary-General:  Ellen Zhou</li>
+            <h3 class="text-indent-4">Executive Board</h3>
+            <ul class="list-group text-indent-8">
+                <li class="list-group-item"><u>Co-Presidents:</u> Aslihan Asil, Jon Cortez</li>
+                <li class="list-group-item"><u>Editor-in-Chief:</u> Martha & Selena Kitchens</li>
+                <li class="list-group-item"><u>Internal Affairs Director:</u> Moni Owoade</li>
+                <li class="list-group-item"><u>External Affairs Director:</u> Michelle Molner</li>
+                <li class="list-group-item"><u>Publicity Director:</u> Anyssa Chebbi</li>
+                <li class="list-group-item"><u>Treasurer:</u> Yekaterina Panskyy</li>
+                <li class="list-group-item"><u>Secretary-General:</u>  Ellen Zhou</li>
             </ul>
             
-            <h3>Non-Executive Officers</h3>
-            <ul>
+            <h3 class="text-indent-4">Non-Executive Officers</h3>
+            <ul class="list-group text-indent-8">
                 <li>Chief Advisor: AJ Sibley</li>
                 <li>Events Manager: Annie Tao</li>
                 <li>Webmaster: Jamil Merali</li>
                 <li>Social Director: Chance Fletcher</li>
             </ul>
 
-            <h3>Committee Positions</h3>
-            <ul>
+            <h3 class="text-indent-4">Committee Positions</h3>
+            <ul class="list-group text-indent-8">
                 <li><u>External Affairs Internship Coordinator:</u> John Zarrillo</li>
             </ul>
 
             <hr>
             <h2>Committees</h2>
-            <h3>Internal Affairs</h3>
-            <ul>
+            <h3 class="text-indent-4">Internal Affairs</h3>
+            <ul class="list-group text-indent-8">
                 <li>Director: Moni Owoade</li>
                 <li>  Committee Members: Jason Choe, Jelani Davis </li>
             </ul>
@@ -152,6 +154,13 @@
     <!-- CUSTOM SCRIPTS   -->
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/social.js"></script>
+        <script>
+        $('.dropdown-toggle').click(function() {
+            var location = $(this).attr('href');
+            window.location.href = location;
+            return false;
+        });
+    </script>
 
 </body>
 
