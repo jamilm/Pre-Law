@@ -106,6 +106,14 @@
     <!-- FOOTER SECTION END-->
     <!-- REQUIRED SCRIPTS FILES -->
     <!-- CORE JQUERY FILE -->
+    <script src="assets/js/social.js"></script>
+        <script>
+        $('.dropdown-toggle').click(function() {
+            var location = $(this).attr('href');
+            window.location.href = location;
+            return false;
+        });
+    </script>
 </body>
 
 </html>

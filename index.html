@@ -266,7 +266,14 @@
     <!-- CUSTOM SCRIPTS   -->
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/social.js"></script>
-
+<script src="assets/js/social.js"></script>
+        <script>
+        $('.dropdown-toggle').click(function() {
+            var location = $(this).attr('href');
+            window.location.href = location;
+            return false;
+        });
+    </script>
 </body>
 
 </html>
