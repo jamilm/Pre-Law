@@ -74,7 +74,7 @@ section {
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover;
-    min-height: 600px;
+    min-height: 400px;
     background-attachment: fixed;
 }
     /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
@@ -88,7 +88,7 @@ section {
     #home h1 {
         padding-top: 80px;
         font-weight: 900;
-        font-size: 5em;
+        font-size: 7em;
         font-family: 'Browallia New';
     }
 /*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
